@@ -17,9 +17,10 @@ const Navbar = () => {
 
         <button className='capitalize  lg:flex hidden'> sign in / register </button>
 
-        <div>
-          <img src={hamburger} className='flex lg:hidden size-10' alt="" />
+        <div className='flex lg:hidden '>
+          <img src={hamburger} className=' size-10' alt="" />
         </div>
+
     </nav>
   )
 }
