@@ -1,5 +1,6 @@
 import React from 'react'
-import { headerLogo } from '../assets/images'
+import { headerLogo ,} from '../assets/images'
+import { hamburger } from '../assets/icons'
 
 
 const Navbar = () => {
@@ -15,6 +16,10 @@ const Navbar = () => {
         </ul>
 
         <button className='capitalize  lg:flex hidden'> sign in / register </button>
+
+        <div>
+          <img src={hamburger} className='flex lg:hidden size-10' alt="" />
+        </div>
     </nav>
   )
 }
